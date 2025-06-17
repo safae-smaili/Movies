@@ -23,7 +23,7 @@ function Accueil({movies,page,setPage,loading}){
       <div className="subheader" style={{backgroundImage:`url(https://image.tmdb.org/t/p/original${ranmovie.backdrop_path})`}}>
     <Hader/>
     
-    <Aheader id='section2' movies={movies} ranmovie={ranmovie} />
+    <Ahader id='section2' movies={movies} ranmovie={ranmovie} />
    
     </div> 
     </Link>

@@ -1,11 +1,12 @@
 import '../../style/footer.css'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router';
+import photo from '/src/assets/logoo.png'
 function Foter(){
     return(        
     <footer className="footer">
          <Link to={`/`} onClick={() => window.scrollTo(0, 0)}>
-            <img src='https://github.com/safae-smaili/movies/blob/main/src/assets/logoo.PNG?raw=true' alt="Logo" className="logo" />
+            <img src={photo} alt="Logo" className="logo" />
         </Link>
             <div className="social-icons">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

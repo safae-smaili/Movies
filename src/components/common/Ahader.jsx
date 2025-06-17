@@ -1,5 +1,5 @@
 
-function Aheader({movies, ranmovie}){
+export default function Ahader({movies, ranmovie}){
     console.log(movies)
     //const ranmovie=movies[Math.floor(Math.random()*movies.length)];
     return(<div className="theone" >
@@ -9,5 +9,3 @@ function Aheader({movies, ranmovie}){
     </div>
 )
 }
-
-export default Aheader

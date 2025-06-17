@@ -9,9 +9,9 @@ function Slist({movies}){
 
         <>
         <span className="slcard">
-          <div className='mlist'>
+          <div onClick={() => window.scrollTo(0, 0)} className='mlist'>
             {movies.slice(0,6).map(movie => (
-              <MoviesCard key={movie.id} movie={movie} />
+              <MoviesCard  key={movie.id} movie={movie} />
             ))}
           </div>
         </span>

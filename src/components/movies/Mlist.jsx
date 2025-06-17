@@ -35,7 +35,7 @@ return (
         <p>No movies found.</p>
       ) : (
         <>
-          <div className='mlist'>
+          <div onClick={() => window.scrollTo(0, 0)} className='mlist'>
             {movies.map(movie => (
               <MoviesCard key={movie.id} movie={movie} />
             ))}

@@ -1,7 +1,7 @@
 import '../../style/footer.css'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router';
-export default function Footer(){
+function Foter(){
     return(        
     <footer className="footer">
          <Link to={`/`} onClick={() => window.scrollTo(0, 0)}>
@@ -22,3 +22,4 @@ export default function Footer(){
            </footer>
 )
 }
+export default Foter;

@@ -7,8 +7,9 @@ import Accueil from './pages/Accueil'
 import Ajouter from './pages/Ajouter';
 import Details from './pages/Details';
 import Recherche from './pages/Recherche';
-import Footer from './components/common/footer';
+
 import NotFound from './components/common/NotFound';
+import Foter from './components/common/Foter';
 function App() {
   const [movies, setMovies] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -54,7 +55,7 @@ fetchMovies();
 
         </Routes>
 
-        <Footer/>
+        <Foter/>
       
       
     </>

@@ -1,7 +1,7 @@
 import Aheader from "../components/common/Aheader.JSX"
 import Mlist from "../components/movies/Mlist"
 // import Movie from "../components/movies/Movie"
-import Header from "../components/common/header"
+import Header from "../components/common/Hader"
 //import MoviesCard from "../components/movies/MovieCard"
 import Movielist from "../components/movies/Slist"
 import { Link } from "react-router"

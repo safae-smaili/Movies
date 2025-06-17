@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 import {useParams} from "react-router-dom";
-import Header from "../components/common/header"
+import Header from "../components/common/Hader"
 import Mlist from "../components/movies/Mlist"
 import Slist from "../components/movies/Slist"
 import Moviedl from "../components/movies/Moviedl";

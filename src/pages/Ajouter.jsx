@@ -1,4 +1,4 @@
-import Header from "../components/common/header"
+import Header from "../components/common/Hader"
 import Add from "../components/movies/Add"
 import Mlist from "../components/movies/Mlist"
 import '../style/ajouter.css'

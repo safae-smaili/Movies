@@ -1,4 +1,4 @@
-import Header from "../components/common/header"
+import Header from "../components/common/Hader"
 import Rheader from "../components/common/Rheader"
 import Mlist from "../components/movies/Mlist"
 import { useState } from "react";

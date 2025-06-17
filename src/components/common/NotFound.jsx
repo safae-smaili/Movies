@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Hader";
 export default function NotFound() {
 
     return (

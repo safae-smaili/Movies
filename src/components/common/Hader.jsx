@@ -2,7 +2,7 @@ import React from 'react'
 import '../../style/header.css'
 import { Link } from 'react-router-dom';
 
-function Header(){
+function Hader(){
     return (
         <div className='head'>
             <Link to={`/`}>
@@ -21,4 +21,4 @@ function Header(){
         </div>
     )
 }
-export default Header;
+export default Hader;

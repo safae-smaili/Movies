@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 import {useParams} from "react-router-dom";
-import Header from "../components/common/Hader"
+import Hader from "../components/common/Hader"
 import Mlist from "../components/movies/Mlist"
 import Slist from "../components/movies/Slist"
 import Moviedl from "../components/movies/Moviedl";
@@ -20,7 +20,7 @@ function Details({movies}){
     },[params.id])
 
     return <>
-   <Header/>
+   <Hader/>
   
    <Moviedl movie={movie}/>
    <h1 className='filme'>Films que vous pourriez aimmer:</h1>

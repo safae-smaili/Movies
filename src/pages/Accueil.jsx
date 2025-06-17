@@ -1,7 +1,7 @@
 import Aheader from "../components/common/Aheader.JSX"
 import Mlist from "../components/movies/Mlist"
 // import Movie from "../components/movies/Movie"
-import Header from "../components/common/Hader"
+import Hader from "../components/common/Hader"
 //import MoviesCard from "../components/movies/MovieCard"
 import Movielist from "../components/movies/Slist"
 import { Link } from "react-router"
@@ -21,7 +21,7 @@ function Accueil({movies,page,setPage,loading}){
     return (<div>
       <Link to={`/Movies/${ranmovie.id}`}>
       <div className="subheader" style={{backgroundImage:`url(https://image.tmdb.org/t/p/original${ranmovie.backdrop_path})`}}>
-    <Header/>
+    <Hader/>
     
     <Aheader id='section2' movies={movies} ranmovie={ranmovie} />
    

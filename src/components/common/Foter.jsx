@@ -6,7 +6,7 @@ function Foter(){
     return(        
     <footer className="footer">
          <Link to={`/`} onClick={() => window.scrollTo(0, 0)}>
-            <img src={import.meta.env.BASE_URL+"/logoo.png"} alt="Logo" className="logo" />
+            <img src="https://raw.githubusercontent.com/safae-smaili/movies/refs/heads/main/src/assets/logoo.PNG" alt="Logo" className="logo" />
         </Link>
             <div className="social-icons">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

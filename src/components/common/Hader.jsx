@@ -8,7 +8,7 @@ function Hader(){
     return (
         <div className='head'>
             <Link to={`/`}>
-        <img src={import.meta.env.BASE_URL+"public/logoo.png"} alt='logo' id="logo"/></Link>
+        <img src="https://raw.githubusercontent.com/safae-smaili/movies/refs/heads/main/src/assets/logoo.PNG" alt='logo' id="logo"/></Link>
         <nav>
             <Link to="/">Accueil</Link>
             <Link to="/Recherche">Recherche</Link>

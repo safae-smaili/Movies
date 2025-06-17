@@ -1,7 +1,7 @@
 import '../../style/footer.css'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router';
-import photo from '/src/assets/logoo.png'
+import photo from '../../assets/logoo.png'
 function Foter(){
     return(        
     <footer className="footer">

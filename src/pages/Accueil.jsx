@@ -1,4 +1,4 @@
-import Aheader from "../components/common/AHeader.JSX"
+import Aheader from "../components/common/Aheader.JSX"
 import Mlist from "../components/movies/Mlist"
 // import Movie from "../components/movies/Movie"
 import Header from "../components/common/header"

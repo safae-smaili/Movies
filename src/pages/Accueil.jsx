@@ -28,9 +28,9 @@ function Accueil({movies,page,setPage,loading}){
     </div> 
     </Link>
     {/* <Slist movies={lsmovies}/> */}
-    <Lmlist movies={lsmovies}/>
-    <Mlist movies={movies} page={page} setPage={setPage}/>
     
+    <Mlist movies={movies} page={page} setPage={setPage}/>
+    <Lmlist movies={lsmovies}/>
     </div>)
     
 }

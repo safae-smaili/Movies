@@ -1,0 +1,24 @@
+import React from 'react'
+import '../../style/header.css'
+import { Link } from 'react-router-dom';
+
+function Header(){
+    return (
+        <div className='head'>
+            <Link to={`/`}>
+        <img src='/src/assets/logoo.png' alt='logo' id="logo"/></Link>
+        <nav>
+            <Link to="/">Accueil</Link>
+            <Link to="/Recherche">Recherche</Link>
+            <Link to="/Ajouter">Ajouter</Link>
+            {/* <Link to="/Details">Details</Link> */}
+            
+        
+            
+            
+        </nav>
+        
+        </div>
+    )
+}
+export default Header;

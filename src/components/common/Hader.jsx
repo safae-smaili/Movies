@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../../assets/logoo.png'
+import photo from 'movies/src/assets/logoo.PNG'
 // import lo form '/src/assets/logoo.png';
 import '../../style/header.css'
 import { Link } from 'react-router-dom';
